@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة عمر بن الخطاب - لوحة الكادر والإنجازات</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        schoolBlue: '#1A365D',
+                        schoolGold: '#D69E2E',
+                        schoolLight: '#F7FAFC'
+                    },
+                    fontFamily: { sans: ['Cairo', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght=400;600;700&display=swap" rel="stylesheet">
+    <style> body { font-family: 'Cairo', sans-serif; } </style>
+</head>
+<body class="bg-schoolLight text-slate-800 antialiased">
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl px-6 mx-auto flex items-center justify-between h-20">
+            <div class="flex items-center space-x-reverse space-x-3">
+                <div class="bg-schoolBlue text-schoolGold p-2.5 rounded-xl">
+                    <i class="fa-solid fa-graduation-cap text-2xl"></i>
+                </div>
+                <span class="text-xl font-bold text-schoolBlue">مدرسة عمر بن الخطاب</span>
+            </div>
+            <nav class="hidden md:flex items-center space-x-reverse space-x-8 font-semibold text-sm text-schoolBlue">
+                <a href="#leadership" class="hover:text-schoolGold transition-colors">الإدارة المدرسية</a>
+                <a href="#teachers" class="hover:text-schoolGold transition-colors">الهيئة التدريسية</a>
+                <a href="#achievements" class="hover:text-schoolGold transition-colors">إنجازات المدرسة</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="h-20"></div>
+
+    <section id="leadership" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-schoolBlue">الإدارة المدرسية</h2>
+                <div class="w-16 h-1 bg-schoolGold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-3xl mx-auto">
+                
+                <div class="bg-slate-50 rounded-3xl p-8 text-center border border-slate-100 shadow-sm transition-all duration-300 hover:shadow-md">
+                    <div class="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-full border-4 border-schoolGold/30 shadow-inner">
+                        <img src="image_72b587.jpg" alt="المدير يعقوب عزام" class="w-full h-full object-cover object-top">
+                    </div>
+                    <h3 class="text-xl font-bold text-schoolBlue">الأستاذ يعقوب عزام</h3>
+                    <p class="text-schoolGold font-semibold text-sm mt-1">مدير المدرسة</p>
+                    <p class="text-slate-500 text-xs mt-3 leading-relaxed">قيادة تربوية فذة تسعى نحو الابتكار والريادة، وحاصل على أرفع الرتب الأكاديمية "رتبة إداري تربوي خبير".</p>
+                </div>
+
+                <div class="bg-slate-50 rounded-3xl p-8 text-center border border-slate-100 shadow-sm transition-all duration-300 hover:shadow-md">
+                    <div class="w-32 h-32 mx-auto mb-6 overflow-hidden rounded-full border-4 border-schoolGold/30 shadow-inner">
+                        <img src="image_7326c0.jpg" alt="الأستاذ باسم أبو دامس" class="w-full h-full object-cover object-top">
+                    </div>
+                    <h3 class="text-xl font-bold text-schoolBlue">الأستاذ باسم أبو دامس</h3>
+                    <p class="text-schoolGold font-semibold text-sm mt-1">مساعد المدير</p>
+                    <p class="text-slate-500 text-xs mt-3 leading-relaxed">ركيزة التنظيم الإداري والمتابعة الدؤوبة لضمان سير العملية التعليمية والانضباط المدرسي بأعلى معايير الجودة.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="teachers" class="py-20 bg-slate-50 border-t border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-schoolBlue">الهيئة التدريسية</h2>
+                <p class="text-slate-500 mt-2 text-sm">صنّاع الأجيال ونخبة العطاء المعرفي</p>
+                <div class="w-16 h-1 bg-schoolGold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="flex justify-center">
+                <div class="bg-white rounded-2xl p-6 text-center shadow-sm border border-slate-150 max-w-sm w-full transition-all duration-300 hover:border-schoolGold">
+                    <div class="w-24 h-24 mx-auto mb-4 overflow-hidden rounded-full border-2 border-schoolBlue/20 shadow-sm">
+                        <img src="image_7c127.jpg" alt="الأستاذ جهاد" class="w-full h-full object-cover" onerror="this.src='image_72c127.jpg'">
+                    </div>
+                    <h4 class="font-bold text-schoolBlue text-lg">الأستاذ جهاد</h4>
+                    <p class="text-sm text-schoolGold font-medium mt-1">مدرس لغة إنجليزية</p>
+                    <p class="text-slate-500 text-xs mt-3 leading-relaxed">بناء مهارات التواصل والتمكين اللغوي، مكرساً جهوده لفتح آفاق المستقبل المعرفي واللغوي أمام طلابنا.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-schoolBlue">إنجازات المدرسة المتميزة</h2>
+                <p class="text-slate-500 mt-2 text-sm">حصاد التميز والريادة لعام ٢٠٢٦</p>
+                <div class="w-16 h-1 bg-schoolGold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6">
+                
+                <div class="p-6 bg-slate-50 rounded-2xl text-center border-b-4 border-b-schoolBlue">
+                    <div class="text-3xl text-schoolGold mb-3"><i class="fa-solid fa-medal"></i></div>
+                    <h3 class="text-xl font-bold text-schoolBlue">إداري خبير</h3>
+                    <p class="text-slate-600 text-xs mt-2 font-medium">تتويج القيادة بحصول مدير المدرسة على أعلى رتبة تربوية بوزارة التربية.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl text-center border-b-4 border-b-schoolGold">
+                    <div class="text-3xl text-schoolBlue mb-3"><i class="fa-solid fa-trophy"></i></div>
+                    <h3 class="text-xl font-bold text-schoolBlue">المركز الأول</h3>
+                    <p class="text-slate-600 text-xs mt-2 font-medium">حصد الصدارة في مسابقات التميز العلمي والأنشطة الإبداعية.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl text-center border-b-4 border-b-schoolBlue">
+                    <div class="text-3xl text-schoolGold mb-3"><i class="fa-solid fa-square-poll-horizontal"></i></div>
+                    <h3 class="text-xl font-bold text-schoolBlue">94% رضا</h3>
+                    <p class="text-slate-600 text-xs mt-2 font-medium">نسبة تقييم أولياء الأمور والمجتمع المحلي الإيجابية للبيئة المدرسية.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl text-center border-b-4 border-b-schoolGold">
+                    <div class="text-3xl text-schoolBlue mb-3"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 class="text-xl font-bold text-schoolBlue">رقمنة كاملة</h3>
+                    <p class="text-slate-600 text-xs mt-2 font-medium">التحول الكلي نحو حوسبة الأرشيف والملفات التعليمية والأنظمة الإدارية.</p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl text-center border-b-4 border-b-schoolBlue">
+                    <div class="text-3xl text-schoolGold mb-3"><i class="fa-solid fa-hands-holding-child"></i></div>
+                    <h3 class="text-xl font-bold text-schoolBlue">بيئة مستدامة</h3>
+                    <p class="text-slate-600 text-xs mt-2 font-medium">اعتماد المدرسة كبيئة تربوية محفزة، آمنة وصديقة للنمو الطلابي.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-schoolBlue text-white/60 py-8 border-t-4 border-schoolGold text-center">
+        <p class="text-xs">جميع الحقوق محفوظة لمدرسة عمر بن الخطاب © ٢٠٢٦</p>
+        <div class="mt-3">
+            <a href="https://www.facebook.com/share/18SpU2aPL7/" target="_blank" class="hover:text-schoolGold text-lg mx-2"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
